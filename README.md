@@ -16,10 +16,10 @@ This is small boilerplate of Electron integrated of React and Typescript structu
 Create a production build of project.
 
 - [X] **build-electron:**
-Copy, make directory and modify files of configuration electron.
+Copy, create a directory and modify configuration files of electron.
 
 - [X] **package:**
-Create instaler extension of project, ready of production.
+Create installer extension of project, ready of production.
 
 ---
 
