@@ -10,6 +10,8 @@ Electron + React + Typescript = :heart_eyes:
 
 This is small boilerplate of Electron integrated of React and Typescript structure ready for development.
 
+[Read documentation in Protuguese Version](.github/documents/README-PORTUGUESE-VERSION.md)
+
 ## Scripts available:
 
 - [X] **build:**

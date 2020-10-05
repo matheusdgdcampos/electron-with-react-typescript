@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/electron-with-react-typescript.png" width="500" heigh="200" alt="banner" />
+  <img src="../electron-with-react-typescript.png" width="500" heigh="200" alt="banner" />
 </p>
 
 # Electron with React + Typescript
