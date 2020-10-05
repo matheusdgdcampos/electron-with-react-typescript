@@ -21,6 +21,9 @@ Copy, create a directory and modify configuration files of electron.
 - [X] **package:**
 Create installer extension of project, ready of production.
 
+- [X] **react:pure:**
+Running React whitout electron running join, its best for style your pages and components in development.
+
 ---
 
 :mega: **WARNING:**
