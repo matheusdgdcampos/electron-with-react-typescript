@@ -7,19 +7,20 @@ const client = new net.Socket();
 
 // this code does the fast refresh of React together with Electron.
 let startedElectron = false;
-const tryConnection = () =>
+const tryConnection = () => {
   client.connect({ port: port }, () => {
     client.end();
     if (!startedElectron) {
       console.log('starting electron');
       startedElectron = true;
-      const exec = require('child_process').exec;
-      const electron = exec('npm run electron');
-      electron.stdout.on('data', function (data) {
+      const { exec } = require('child_process');
+      const electron = exec('yarn electron');
+      electron.stdout.on('data', data => {
         console.log('stdout: ' + data.toString());
       });
     }
   });
+}
 
 tryConnection();
 

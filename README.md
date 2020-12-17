@@ -14,6 +14,9 @@ This is small boilerplate of Electron integrated of React and Typescript structu
 
 ## Scripts available:
 
+- [X] **start:**
+Start development instance running on Electron with React.
+
 - [X] **build:**
 Create a production build of project.
 
